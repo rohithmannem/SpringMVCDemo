@@ -43,7 +43,7 @@ public class WelcomeController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String getUserHomePage(Model model, @ModelAttribute("loginForm") UserLoginBean userLoginBean) {
 
-		System.out.println("In WelcomeController, method : getUserHomePage() @@@@@@@@@");
+		System.out.println("In WelcomeController, method : getUserHomePage() @@@@@@@@@ @@@@");
 
 		return "login";
 	}

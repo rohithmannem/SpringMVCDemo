@@ -48,7 +48,7 @@ public class UserDetailsController {
 	public String getHomePage(Model model) {
 
 		model.addAttribute("message", "This is Rohith");
-		System.out.println("Hello we are in WelcomeController class and getHomePage method **************");
+		System.out.println("Hello we are in WelcomeController class and getHomePage method **** ** ***");
 
 		News news = newsService.getNews();
 
