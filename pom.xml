@@ -6,6 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
+	<!-- Below are the versions of all dependencies *** --> 
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>4.0.1.RELEASE</spring.version>
